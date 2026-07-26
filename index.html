@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crystal Clear Window Cleaning | Treasure Valley, Idaho</title>
+  <meta name="description" content="Professional window cleaning services for homes and businesses throughout the Treasure Valley, Idaho. Streak-free results, insured & bonded." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="logo-icon">✦</span>
+        <span>Crystal Clear</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="btn btn--nav">Free Quote</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-link btn btn--primary">Get a Free Quote</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero__video-wrap">
+      <video id="heroVideo" class="hero__video" autoplay muted loop playsinline poster="img/hero-poster.jpg">
+        <source src="videos/hero-clean.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Treasure Valley's Premier Window Cleaning Service</p>
+      <h1 class="hero__headline">Let the<br /><em>Light In.</em></h1>
+      <p class="hero__sub">Professional, streak-free window cleaning for homes and businesses throughout Boise, Nampa, Meridian, and the entire Treasure Valley.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+        <a href="#services" class="btn btn--ghost btn--lg">Our Services</a>
+      </div>
+      <div class="hero__badges">
+        <div class="badge"><span class="badge__icon">🛡️</span><span>Fully Insured</span></div>
+        <div class="badge"><span class="badge__icon">⭐</span><span>5-Star Rated</span></div>
+        <div class="badge"><span class="badge__icon">🌿</span><span>Eco-Friendly</span></div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <div class="scroll-dot"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar__items">
+        <div class="trust-item">
+          <strong>500+</strong>
+          <span>Happy Customers</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>8+ Years</strong>
+          <span>Serving the Valley</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>100%</strong>
+          <span>Satisfaction Guarantee</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>Same-Day</strong>
+          <span>Quotes Available</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What We Do</p>
+        <h2 class="section-title">Premium Window Cleaning<br />For Every Property</h2>
+        <p class="section-sub">From single-story homes to multi-story commercial buildings, we bring the shine — safely, efficiently, and affordably.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__video-wrap">
+            <video class="service-card__video" autoplay muted loop playsinline>
+              <source src="videos/residential-service.mp4" type="video/mp4" />
+            </video>
+            <div class="service-card__video-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">🏡</div>
+            <h3>Residential</h3>
+            <p>Crystal-clear windows inside and out. We clean all types — double-hung, casements, sliders — leaving your home sparkling.</p>
+            <ul class="service-list">
+              <li>Interior &amp; exterior cleaning</li>
+              <li>Screen cleaning &amp; re-installation</li>
+              <li>Track &amp; sill detail cleaning</li>
+              <li>Hard water stain removal</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline">Book Residential</a>
+          </div>
+        </div>
+        <div class="service-card service-card--featured">
+          <div class="service-card__video-wrap">
+            <video class="service-card__video" autoplay muted loop playsinline>
+              <source src="videos/storefront-clean.mp4" type="video/mp4" />
+            </video>
+            <div class="service-card__video-overlay"></div>
+          </div>
+          <div class="service-card__badge">Most Popular</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">🏢</div>
+            <h3>Commercial</h3>
+            <p>Make the right first impression. Sparkling storefronts and office windows attract customers and communicate professionalism.</p>
+            <ul class="service-list">
+              <li>Storefront &amp; retail glass</li>
+              <li>Office buildings &amp; complexes</li>
+              <li>Scheduled maintenance plans</li>
+              <li>After-hours service available</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Book Commercial</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card__video-wrap">
+            <video class="service-card__video" autoplay muted loop playsinline>
+              <source src="videos/hero-panorama.mp4" type="video/mp4" />
+            </video>
+            <div class="service-card__video-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">✨</div>
+            <h3>Specialty &amp; High-Rise</h3>
+            <p>Hard-to-reach windows require specialized equipment. We handle it safely with fully insured crews and professional gear.</p>
+            <ul class="service-list">
+              <li>High-rise &amp; multi-story access</li>
+              <li>Skylights &amp; solar panels</li>
+              <li>Post-construction cleanup</li>
+              <li>New home window cleaning</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline">Book Specialty</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__media">
+          <div class="about__video-frame">
+            <video autoplay muted loop playsinline class="about__video">
+              <source src="videos/hero-panorama.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="about__stat-card">
+            <strong>4.9 ★</strong>
+            <span>Average Google Rating</span>
+          </div>
+        </div>
+        <div class="about__copy">
+          <p class="section-eyebrow">About Crystal Clear</p>
+          <h2 class="section-title">Locally Owned &amp; Operated<br />In the Treasure Valley</h2>
+          <p>We're your neighbors. Founded right here in the Treasure Valley, Crystal Clear Window Cleaning has been trusted by homeowners and business owners across Boise, Meridian, Nampa, Caldwell, and Eagle for over 8 years.</p>
+          <p>Every window we clean gets our personal guarantee — if you're not 100% satisfied, we'll come back and make it right, no questions asked.</p>
+          <div class="about__features">
+            <div class="about__feature">
+              <span class="feature-icon">🛡️</span>
+              <div>
+                <strong>Fully Insured &amp; Bonded</strong>
+                <p>Your property and our crew are covered. Always.</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <span class="feature-icon">🌿</span>
+              <div>
+                <strong>Eco-Friendly Products</strong>
+                <p>Biodegradable, non-toxic cleaning solutions safe for families and pets.</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <span class="feature-icon">🗓️</span>
+              <div>
+                <strong>Flexible Scheduling</strong>
+                <p>Morning, afternoon, evenings, and weekends available.</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <span class="feature-icon">📱</span>
+              <div>
+                <strong>Easy Booking</strong>
+                <p>Call, text, or use our form — quotes within 24 hours.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary">Get Your Free Quote Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">See It In Action</p>
+        <h2 class="section-title">Real Results, Real Shine</h2>
+        <p class="section-sub">Watch our team at work across the Treasure Valley.</p>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <video autoplay muted loop playsinline class="gallery__video">
+            <source src="videos/hero-clean.mp4" type="video/mp4" />
+          </video>
+          <div class="gallery__caption">Professional Squeegee Technique</div>
+        </div>
+        <div class="gallery__item">
+          <video autoplay muted loop playsinline class="gallery__video">
+            <source src="videos/storefront-clean.mp4" type="video/mp4" />
+          </video>
+          <div class="gallery__caption">Storefront Transformation</div>
+        </div>
+        <div class="gallery__item">
+          <video autoplay muted loop playsinline class="gallery__video">
+            <source src="videos/residential-service.mp4" type="video/mp4" />
+          </video>
+          <div class="gallery__caption">Residential Service</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What Customers Say</p>
+        <h2 class="section-title">Treasure Valley Loves<br />Their Clean Windows</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Absolutely incredible! My windows haven't been this clean since we moved in. They showed up on time, were super professional, and the price was totally fair. Will definitely use Crystal Clear again!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Meridian, ID</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-card--featured">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"We've had Crystal Clear do our storefront every month for over a year. Customers always comment on how professional our shop looks. Worth every penny — highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">D</div>
+            <div>
+              <strong>David R.</strong>
+              <span>Downtown Boise Business Owner</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"I have tricky skylight windows that most companies won't touch. Crystal Clear handled them perfectly — no streaks, no damage. These guys are true professionals!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">K</div>
+            <div>
+              <strong>Karen L.</strong>
+              <span>Eagle, ID</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Transparent Pricing</p>
+        <h2 class="section-title">Simple, Honest Quotes</h2>
+        <p class="section-sub">No hidden fees. No surprises. Just sparkling clean windows at a fair price. All jobs start with a free quote.</p>
+      </div>
+      <div class="pricing__grid">
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Residential Basic</h3>
+            <div class="pricing-card__price">Starting at <strong>$[PRICE]</strong></div>
+          </div>
+          <ul class="pricing-list">
+            <li>✓ Exterior windows only</li>
+            <li>✓ Up to 10 windows</li>
+            <li>✓ Streak-free guarantee</li>
+            <li>✓ Same-day scheduling available</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Get Quote</a>
+        </div>
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-card__tag">Best Value</div>
+          <div class="pricing-card__header">
+            <h3>Residential Complete</h3>
+            <div class="pricing-card__price">Starting at <strong>$[PRICE]</strong></div>
+          </div>
+          <ul class="pricing-list">
+            <li>✓ Interior + exterior windows</li>
+            <li>✓ Screen cleaning included</li>
+            <li>✓ Track &amp; sill detail</li>
+            <li>✓ Streak-free guarantee</li>
+            <li>✓ Priority scheduling</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Get Quote</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Commercial Plans</h3>
+            <div class="pricing-card__price">Custom Pricing</div>
+          </div>
+          <ul class="pricing-list">
+            <li>✓ Storefronts &amp; offices</li>
+            <li>✓ Weekly, bi-weekly, monthly</li>
+            <li>✓ After-hours availability</li>
+            <li>✓ Dedicated account manager</li>
+            <li>✓ Volume discounts</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS -->
+  <section class="service-areas">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Where We Work</p>
+        <h2 class="section-title">Serving All of the<br />Treasure Valley</h2>
+      </div>
+      <div class="areas__grid">
+        <div class="area-chip">📍 Boise</div>
+        <div class="area-chip">📍 Meridian</div>
+        <div class="area-chip">📍 Nampa</div>
+        <div class="area-chip">📍 Caldwell</div>
+        <div class="area-chip">📍 Eagle</div>
+        <div class="area-chip">📍 Kuna</div>
+        <div class="area-chip">📍 Star</div>
+        <div class="area-chip">📍 Garden City</div>
+        <div class="area-chip">📍 Mountain Home</div>
+        <div class="area-chip">📍 Middleton</div>
+        <div class="area-chip">📍 Parma</div>
+        <div class="area-chip">📍 &amp; Surrounding Areas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__copy">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Ready for Crystal Clear<br />Windows?</h2>
+          <p>Fill out the form and we'll get you a free, no-obligation quote within 24 hours. Or reach out directly — we love talking windows!</p>
+          <div class="contact__info">
+            <a href="tel:[PHONE_NUMBER]" class="contact-detail">
+              <span class="contact-detail__icon">📞</span>
+              <div>
+                <strong>Call or Text</strong>
+                <span>[PHONE_NUMBER]</span>
+              </div>
+            </a>
+            <a href="mailto:[EMAIL_ADDRESS]" class="contact-detail">
+              <span class="contact-detail__icon">✉️</span>
+              <div>
+                <strong>Email Us</strong>
+                <span>[EMAIL_ADDRESS]</span>
+              </div>
+            </a>
+            <div class="contact-detail">
+              <span class="contact-detail__icon">📍</span>
+              <div>
+                <strong>Service Area</strong>
+                <span>Treasure Valley, Idaho</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail__icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <span>[BUSINESS_HOURS]</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="[FACEBOOK_URL]" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="[INSTAGRAM_URL]" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="[GOOGLE_BUSINESS_URL]" aria-label="Google Business" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__form-wrap">
+          <form class="contact-form" id="quoteForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(208) 555-0123" />
+            </div>
+            <div class="form-group">
+              <label for="city">City / Area *</label>
+              <select id="city" name="city" required>
+                <option value="">Select your city...</option>
+                <option>Boise</option>
+                <option>Meridian</option>
+                <option>Nampa</option>
+                <option>Caldwell</option>
+                <option>Eagle</option>
+                <option>Kuna</option>
+                <option>Star</option>
+                <option>Garden City</option>
+                <option>Mountain Home</option>
+                <option>Middleton</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option>Residential — Exterior Only</option>
+                <option>Residential — Interior &amp; Exterior</option>
+                <option>Commercial — Storefront</option>
+                <option>Commercial — Office Building</option>
+                <option>Specialty / High-Rise</option>
+                <option>Hard Water Stain Removal</option>
+                <option>Post-Construction Cleanup</option>
+                <option>Not Sure — Just Quote Me!</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Additional Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your property, number of windows, any hard-to-reach areas, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send My Free Quote Request →</button>
+            <p class="form-disclaimer">No spam, ever. We'll only contact you about your quote.</p>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <div class="success-icon">✓</div>
+            <h3>Quote Request Sent!</h3>
+            <p>Thanks! We'll be in touch within 24 hours with your free quote.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="logo-icon">✦</span>
+            <span>Crystal Clear</span>
+          </a>
+          <p>Professional window cleaning for homes and businesses throughout the Treasure Valley, Idaho.</p>
+          <p class="footer__license">Licensed · Insured · Bonded | License #[LICENSE_NUMBER]</p>
+        </div>
+        <div class="footer__links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Residential Cleaning</a></li>
+            <li><a href="#services">Commercial Cleaning</a></li>
+            <li><a href="#services">Specialty &amp; High-Rise</a></li>
+            <li><a href="#services">Hard Water Removal</a></li>
+            <li><a href="#services">Post-Construction</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Service Areas</h4>
+          <ul>
+            <li><a href="#">Boise</a></li>
+            <li><a href="#">Meridian</a></li>
+            <li><a href="#">Nampa</a></li>
+            <li><a href="#">Caldwell</a></li>
+            <li><a href="#">Eagle &amp; Surrounding</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>📞 <a href="tel:[PHONE_NUMBER]">[PHONE_NUMBER]</a></p>
+          <p>✉️ <a href="mailto:[EMAIL_ADDRESS]">[EMAIL_ADDRESS]</a></p>
+          <p>📍 Treasure Valley, Idaho</p>
+          <p>🕐 [BUSINESS_HOURS]</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Crystal Clear Window Cleaning. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
