@@ -159,6 +159,12 @@ ul { list-style: none; }
 .logo-icon { color: var(--sky-400); font-size: 1.1rem; }
 .logo-img { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; }
 .logo-sub { font-style: normal; font-weight: 400; font-size: 0.85em; opacity: .8; }
+.nav__fb { display: flex; align-items: center; color: var(--white); opacity: .85; transition: opacity .2s, color .2s; }
+.nav__fb:hover { opacity: 1; color: var(--sky-400); }
+.hero__fb { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--white); opacity: .9; font-size: .95rem; text-decoration: underline; text-underline-offset: 3px; }
+.hero__fb:hover { opacity: 1; color: var(--sky-400); }
+.form-error { margin-top: 12px; padding: 12px 14px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; color: #b91c1c; font-size: .9rem; }
+.form-error a { color: #b91c1c; font-weight: 600; }
 .nav__links {
   display: flex;
   align-items: center;

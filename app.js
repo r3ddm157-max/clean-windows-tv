@@ -83,11 +83,17 @@ fadeEls.forEach(el => fadeObserver.observe(el));
 const form = document.getElementById('quoteForm');
 const formSuccess = document.getElementById('formSuccess');
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
+// Standard POST to FormSubmit (redirects back with ?sent=1).
+// Show success state when returning from a successful send.
+if (new URLSearchParams(window.location.search).get('sent') === '1') {
   form.style.display = 'none';
   formSuccess.style.display = 'flex';
-  formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  setTimeout(() => formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+}
+form.addEventListener('submit', () => {
+  const btn = document.getElementById('submitBtn');
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
 });
 
 // ===== SMOOTH SCROLL OFFSET =====
