@@ -157,6 +157,8 @@ ul { list-style: none; }
   color: var(--white);
 }
 .logo-icon { color: var(--sky-400); font-size: 1.1rem; }
+.logo-img { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; }
+.logo-sub { font-style: normal; font-weight: 400; font-size: 0.85em; opacity: .8; }
 .nav__links {
   display: flex;
   align-items: center;
