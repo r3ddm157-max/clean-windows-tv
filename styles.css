@@ -165,6 +165,8 @@ ul { list-style: none; }
 .hero__fb:hover { opacity: 1; color: var(--sky-400); }
 .form-error { margin-top: 12px; padding: 12px 14px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; color: #b91c1c; font-size: .9rem; }
 .form-error a { color: #b91c1c; font-weight: 600; }
+.plans-video-wrap { max-width: 860px; margin: 0 auto 48px; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(10,22,40,.35); }
+.plans-video { display: block; width: 100%; height: auto; }
 .nav__links {
   display: flex;
   align-items: center;
