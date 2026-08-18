@@ -148,3 +148,16 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 })();
+
+
+// ===== PROMO VIDEO SOUND TOGGLE =====
+(function(){
+  const v = document.getElementById('promoVideo');
+  const btn = document.getElementById('promoSound');
+  if (!v || !btn) return;
+  btn.addEventListener('click', () => {
+    v.muted = !v.muted;
+    if (!v.muted) { v.currentTime = 0; v.play().catch(() => {}); }
+    btn.textContent = v.muted ? '🔊 Tap for sound' : '🔇 Mute';
+  });
+})();
